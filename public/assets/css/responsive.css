@@ -1,0 +1,828 @@
+@media (min-width: 320px) and (max-width: 1400px) {
+    .form__area__left {
+        padding: 60px 50px;
+        padding-right: 75px;
+    }
+
+    .single__inbox__card__header {
+        padding: 9px 6px;
+    }
+
+    .form__area__content p {
+        font-size: 21px;
+    }
+
+
+    .form__area__content {
+        padding: 20px 30px;
+        padding-right: 47px;
+    }
+
+    .dashboard__menu__links ul>li>a {
+        padding: 14px 15px;
+    }
+
+    .dashboard__menu__links ul>li ul li a {
+        font-size: 14px;
+        padding: 6px 11px;
+    }
+
+    .dashboard__menu__logo {
+        padding: 19px 16px;
+    }
+
+    .breadcrumb__area {
+        padding: 6px 19px;
+    }
+
+    .dashboard-header {
+        padding: 9px 6px;
+    }
+
+    .main__wrapper {
+        padding: 30px 20px;
+    }
+
+
+
+    .dashboard__menu {
+        width: 245px;
+    }
+
+    .dashboard__menu__links ul>li>a>span {
+        margin-right: 12px;
+    }
+
+    .main__area {
+        padding-left: 245px;
+    }
+
+    .form__card__body__wrapper {
+        padding: 24px 35px;
+    }
+
+
+}
+
+@media (min-width: 320px) and (max-width: 1200px) {
+
+    .form__area__left {
+        padding: 52px 36px;
+        padding-right: 40px;
+    }
+
+    .single__inbox__card__header p {
+        margin-left: 9px;
+        margin-right: 10px;
+    }
+
+    .job__form__wrapper .form__card__body__wrapper {
+        padding: 23px 28px;
+        padding-bottom: 6px;
+    }
+
+    .form__card__body__wrapper {
+        padding: 20px 28px;
+    }
+
+
+    .form__page__top {
+        margin-bottom: 45px;
+    }
+
+    h4 {
+        margin-bottom: 20px;
+    }
+
+    .form__area__content p {
+        font-size: 19px;
+    }
+
+    .form__area__content {
+        padding: 17px 25px;
+        padding-right: 35px;
+    }
+
+    .form__area__right {
+        padding: 45px 0;
+        padding-right: 30px;
+    }
+
+
+    .menu-open {
+        display: block
+    }
+
+    .dashboard-header {
+        padding: 9px 0px;
+        padding-left: 40px;
+    }
+
+
+    .dashboard__menu {
+        width: 255px;
+        left: -100%;
+        opacity: 0;
+        visibility: hidden;
+        box-shadow: 0 0 20px #ddd;
+        border-right: 1px solid #dddddd6b;
+    }
+
+    .dashboard__menu.active {
+        left: 0;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .main__area {
+        padding-left: 0;
+    }
+
+    .breadcrumb__area {
+        padding: 6px 13px;
+    }
+
+    .main__wrapper {
+        padding: 25px 15px;
+    }
+
+    .menu-close {
+        display: flex;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 991px) {
+    .job__form__wrapper .form__card__body__wrapper {
+        padding: 20px 22px;
+        padding-bottom: 4px;
+    }
+
+    .inbox__messages__wrapper__row .col-md-4 {
+        width: 50%;
+    }
+
+    .inbox__messages__wrapper__row .row {
+        justify-content: center;
+    }
+
+    .job__form__wrapper .form__card__body__wrapper.check-bg {
+        padding-top: 13px;
+    }
+
+    .form__area__right {
+        display: none;
+    }
+
+    textarea.form-control.big {
+        height: 295px !important;
+    }
+
+    textarea.form-control {
+        height: 165px !important;
+        resize: none;
+        padding: 8px 14px !important;
+    }
+
+    .form__area__left {
+        padding: 55px 36px;
+        width: 100%;
+        max-width: 605px;
+        margin: 0 auto;
+    }
+
+
+    .form__area {
+        padding: 45px 0;
+    }
+
+    .header {
+        padding: 13px 8px;
+    }
+
+
+    .header.dashboard-header {
+        padding: 9px 0px;
+        padding-left: 40px;
+    }
+
+    .permission__data__item__lists {
+        padding-left: 75px;
+    }
+
+    .form__card__navigation {
+        flex: 0 0 195px;
+    }
+
+    .form__card__navigation ul li a {
+        padding: 10px 18px;
+    }
+
+    .fr-scroll {
+        overflow-x: scroll;
+        display: block;
+        max-width: 100%;
+    }
+
+    .form__card__flex__right {
+        width: 100%;
+        max-width: calc(100% - 195px);
+    }
+
+    .administrator__card__wrapper .common__list__card>* {
+        border-top: 1px solid #B4B4B4;
+        border-bottom: 1px solid #B4B4B4;
+        padding: 9px 15px;
+        min-height: 52px;
+        height: 100%;
+    }
+
+    .administrator__card__wrapper .common__list__card>*:first-child {
+        border-left: 1px solid #B4B4B4;
+    }
+
+    .administrator__card__wrapper .common__list__card>*:last-child {
+        border-right: 1px solid #B4B4B4;
+    }
+
+    .administrator__card__wrapper .common__list__card {
+        border: 0;
+        padding: 0;
+        grid-gap: 0;
+    }
+
+    .offcanvas__sidebar {
+        width: 650px;
+    }
+
+
+
+
+    .table th, .table td {
+        padding: 9px 18px;
+        min-width: 150px;
+    }
+
+    .status {
+        font-size: 13px;
+        padding: 5px 9px;
+        padding-right: 17px;
+    }
+
+    .status span {
+        margin-right: 3px;
+    }
+
+    .data__table {
+        overflow-x: scroll;
+    }
+
+    .data__table .table {
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .form__card__flex__right {
+        max-width: calc(100%);
+    }
+
+    .single__job__list__item {
+        padding: 16px 22px;
+    }
+
+    .single__job__list__item.coming-soon {
+        padding-right: 125px;
+    }
+
+    .coomin-soon-icon {
+        max-width: 88px;
+        right: 24px;
+    }
+
+    .job__details__inner {
+        margin-bottom: 25px;
+    }
+
+    .dataTables_wrapper .dataTables_filter {
+        top: -35px;
+    }
+
+    .data__table .dataTables_wrapper .dataTables_filter {
+        top: -45px;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .data__table .table-responsive-sm {
+        overflow-x: unset;
+    }
+
+    .single__input__item .col-md-8 {
+        margin-bottom: 11px;
+    }
+
+    .offcanvas__sidebar {
+        width: 100%;
+    }
+
+    .offcanvas__sidebar__body {
+        padding: 25px;
+    }
+
+    .offcanvas__close {
+        top: 19px;
+    }
+
+    .common__list__card__name {
+        min-width: 95px;
+    }
+
+    .form__buttons__row.offcanvas__form__btns {
+        padding: 20px 25px;
+    }
+
+    .form__card__navigation {
+        flex: 0 0 100%;
+        width: 100%;
+        height: auto;
+    }
+
+    .form__card__flex {
+        flex-wrap: wrap;
+    }
+
+    .modal-dialog {
+        max-width: 570px;
+    }
+
+
+    .profile__data__list__left {
+        min-width: 190px;
+        margin-right: 10px;
+    }
+
+    .profile__data__list li {
+        padding: 13px 20px;
+    }
+
+    .profile__setup__area {
+        padding: 10px 0;
+    }
+
+    .form__area__left {
+        padding: 50px 20px;
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .permission__data__item__lists {
+        padding-left: 0;
+    }
+
+    .single__access__card {
+        margin-bottom: 22px;
+        padding: 18px 20px;
+    }
+
+    .form__card__body__wrapper {
+        padding: 14px 20px;
+    }
+
+    .form__page__logo {
+        max-width: 122px;
+    }
+
+    .general__card__item {
+        padding: 13px 20px;
+        margin-bottom: 18px;
+    }
+
+    .single__input__item label {
+        font-size: 14px;
+    }
+
+
+    .single__input__item {
+        margin-bottom: 18px;
+    }
+
+
+    .common__btn {
+        font-size: 13px;
+        padding: 10px 18px;
+    }
+
+    h4 {
+        margin-bottom: 16px;
+        font-size: 22px;
+    }
+
+    .common__btn.btn-bordered {
+        padding: 9px 18px;
+    }
+
+    .email__validation__inputs .form-control {
+        width: 53px;
+        height: 50px;
+        font-size: 24px;
+    }
+
+    .main__wrapper .list-group-item {
+        font-size: 13px;
+    }
+
+    .list-group-item {
+        padding: 10px 15px;
+    }
+
+    .list-group-item .form-check {
+        margin-right: 10px;
+    }
+
+    .form__card__title {
+        font-size: 14px;
+        padding: 13px 16px;
+    }
+
+
+    .list__group__left p a {
+        margin-left: 15px;
+        max-width: 13px;
+    }
+
+    .form__card__alert {
+        padding: 14px;
+    }
+
+    .list__group__left {
+        width: 45%;
+        flex: 0 0 45%;
+        padding-right: 10px;
+    }
+
+
+
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+    .job__details__wrap .nav-tabs button {
+        font-size: 14px;
+        padding: 11px 20px;
+    }
+
+    .single__job__list__item {
+        padding: 16px 22px;
+        flex-direction: column;
+    }
+
+    .single__job__list__icon {
+        flex: 0 0 auto;
+        margin-right: 0;
+        margin-bottom: 14px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .single__job__list__item.coming-soon {
+        padding-right: 20px;
+    }
+
+    .coomin-soon-icon {
+        max-width: 64px;
+        right: 13px;
+        top: 9px;
+        transform: unset;
+    }
+
+    .inbox__nav__wrapper {
+        flex-direction: column;
+        justify-content: flex-start !important;
+        align-items: flex-start !important;
+    }
+
+    .inbox__messages__wrapper__row .col-md-4 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .inbox__action__btns button {
+        margin-left: 0;
+        margin-bottom: 10px;
+        margin-right: 16px;
+    }
+
+    .single__inbox__card__header p {
+        margin-left: 8px;
+        margin-right: 8px;
+        font-size: 13px;
+    }
+
+    .changeStatus-modal .modal-dialog {
+        max-width: 100%;
+    }
+
+    .skills__list button {
+        font-size: 13px;
+        padding: 8px 13px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .document__list__item {
+        padding: 8px 11px;
+        padding-right: 50px;
+    }
+
+    .job__description {
+        padding: 20px;
+    }
+
+    .form__page__top p {
+        font-size: 13px;
+    }
+
+    .single__job__check__item {
+        padding: 7px 13px;
+    }
+
+    .permission__data__item.d-flex {
+        flex-direction: column;
+    }
+
+    .single__job__check__item p {
+        margin-right: 20px;
+    }
+
+    .dataTables_wrapper .dataTables_filter {
+        top: -40px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .access__item {
+        padding: 17px 18px;
+        margin-bottom: 15px;
+        flex-direction: column;
+    }
+
+    .access__item__icon {
+        margin-right: 0;
+        margin-bottom: 12px;
+    }
+
+    .data__table__wrapper {
+        position: relative;
+        top: 0;
+        padding-top: 36px;
+        overflow-x: scroll;
+    }
+
+    .permission__data__item__lists.ps-5 {
+        padding-left: 0 !important;
+    }
+
+    .dataTables_wrapper .dataTables_length .select2-container--default .select2-selection--single {
+        width: 115px;
+        height: 34px;
+    }
+
+    .data__table .dataTables_wrapper .dataTables_paginate {
+        margin-top: 11px;
+        padding: 0 2px;
+    }
+
+    .job__form__wrapper .form__card__body__wrapper {
+        padding: 15px 17px;
+        padding-bottom: 4px;
+    }
+
+    .data__table__footer {
+        flex-direction: column-reverse;
+    }
+
+    textarea.form-control.big {
+        height: 200px !important;
+    }
+
+    textarea.form-control {
+        height: 145px !important;
+    }
+
+    .form__buttons__row {
+        flex-wrap: wrap;
+        margin-bottom: -10px;
+    }
+
+    .form__card__title__wrap__btn.has-abs {
+        position: absolute;
+        right: 0;
+        top: 1px;
+    }
+
+    .form__buttons__row button {
+        margin-bottom: 10px;
+    }
+
+    .data__table__footer .pagination {
+        margin-top: 15px;
+    }
+
+    .single__tag {
+        padding: 1px 7px;
+        font-size: 13px;
+    }
+
+    .location--offcanvas {
+        width: 310px;
+    }
+
+    .location--offcanvas .offcanvas__sidebar__body {
+        padding: 20px;
+    }
+
+    .offcanvas__sidebar__body {
+        padding: 20px;
+    }
+
+    .offcanvas__close {
+        top: 16px;
+    }
+
+    .profile__data__list li {
+        padding: 10px 15px;
+        flex-direction: column;
+    }
+
+    .profile__data__list__left {
+        min-width: auto;
+        margin-right: 0;
+        margin-bottom: 4px;
+        width: 100%;
+    }
+
+    .form__card__body__wrapper p br {
+        display: none;
+    }
+
+    .common__list__card {
+        border-radius: 3px;
+        padding: 6px 13px;
+        margin-bottom: 10px;
+        grid-gap: 10px;
+    }
+
+    .common__list__card__icon {
+        max-width: 33px;
+        margin-right: 14px;
+    }
+
+    .form__card__title__wrap {
+        flex-direction: column;
+        align-items: flex-start !important;
+        position: relative;
+    }
+
+    .form__card__title__wrap__left {
+        border-bottom: 1px solid #EEE;
+        width: 100%;
+    }
+
+    .permission__data__item {
+        padding: 13px 19px;
+    }
+
+    .permission__data__wrapper__title {
+        padding: 10px 19px;
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+
+    .permission__data__wrapper__title p:first-child {
+        margin-bottom: 2px !important;
+    }
+
+    .modal__body {
+        padding: 3px 23px;
+        padding-bottom: 0;
+    }
+
+    .single__input__item .col-sm-7 {
+        margin-bottom: 10px;
+    }
+
+    .close-alert {
+        right: 12px;
+        font-size: 20px;
+    }
+
+    .general__card__item {
+
+        padding: 11px 17px;
+        margin-bottom: 15px;
+    }
+
+    .general__card__icon {
+        margin-right: 12px;
+    }
+
+    .form__card__body__wrapper {
+        padding: 12px 16px;
+    }
+
+    .alert {
+        margin-bottom: 25px;
+        padding: 13px 15px;
+    }
+
+    .email__validation__inputs .form-control {
+        width: 44px;
+        height: 42px;
+        font-size: 20px;
+    }
+
+    .general__item__content p .text-link {
+        margin-right: 11px;
+        font-size: 13px;
+    }
+
+    .form__card__title {
+        font-size: 14px;
+        padding: 12px 12px;
+    }
+
+
+    .email__validation__wrapper {
+        padding: 17px 18px;
+        margin-bottom: 45px;
+    }
+
+    .header__logo {
+        max-width: 130px;
+    }
+
+
+
+    .header {
+        padding: 12px 0px;
+    }
+
+    .header__search input {
+        width: 155px;
+        padding: 0 8px;
+    }
+
+    .menu-open {
+        font-size: 22px;
+        top: 6px;
+        left: 12px;
+    }
+
+    .header__search button {
+        font-size: 17px;
+        top: 1px;
+    }
+
+    .header.dashboard-header {
+        padding: 9px 0px;
+        padding-left: 30px;
+    }
+
+    .breadcrumb__area ul li {
+        margin-right: 15px;
+        font-size: 12px;
+    }
+
+    .main__wrapper .list-group-item {
+        flex-wrap: wrap;
+    }
+
+    .list__group__left {
+        width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .form__card__body {
+        padding: 14px 15px;
+    }
+
+
+    .form__card__alert__icon {
+        margin-right: 12px;
+    }
+
+    .alert-close {
+        right: 12px;
+        top: 9px;
+        font-size: 20px;
+    }
+
+
+
+}
